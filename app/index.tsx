@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, SafeAreaView, Platform } from "react-native";
+import Home from "../src/views/Home";
 
 export default function App() {
   return (
@@ -10,9 +11,7 @@ export default function App() {
           flex: 1,
         }}
       >
-        <Text style={{ color: "black" }}>
-          Open up App.tsx to start working on your app!
-        </Text>
+        <Home />
       </View>
     </SafeAreaView>
   );
@@ -21,5 +20,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "rgba(7, 26, 93, 366)",
   },
 });
